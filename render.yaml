@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: crypto-ema-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python crypto_ema_bot.py
